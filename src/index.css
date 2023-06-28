@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.home-img{
+    background-color: white; 
+    width: 50%;
 }
+.not{
+    background-color:white; 
+    width: 5%;
+}
+.cards{
+    background-color:white;
+     width: 45%;
+}
+.card{
+  width: 700px;
+}
+.log1{
+    float: left;
+    height: 1000px;
+    background-color:#fffefe;
+    width:25%
+}
+.log2{
+    float: left;
+    height: 1000px;
+    background-color:#fffefe;
+    width:50%
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+h4 {
+    text-align: center;
+    color:blue
+}
+.nav-item a {
+    color:white !important;
+    margin-right: 20px;
+}
+.u {
+    height: 100px;
+    width: 550px;
+    color: #fffefe;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border-radius: 30px
+
+  }
+  
+.s{background-color: #04AA6D;} /* Green */
+.s:hover {background-color: #46a049;}
+  
+.i{background-color: #2196F3;} /* Blue */
+.i:hover {background: #0b7dda;}
+  
+.w {background-color: #ff9800;} /* Orange */
+.w:hover {background: #e68a00;}
+  
+.d{background-color: #f44336;} /* Red */
+.d:hover {background: #da190b;}
+.ucla{
+    
+    height: 100vh;
+    max-width: 100%;
+    background-color: rgb(244, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
